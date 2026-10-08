@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Pop It! | Diversión a todo color</title>
+	<link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="page">
+    <header class="page-header">
+      <div class="page-header__container">
+        <a class="page-header__logo" href="#top">MUNDO POP IT</a>
+
+        <button
+          class="page-header__toggle"
+          type="button"
+          aria-label="Abrir menú"
+          title="Abrir menú"
+          aria-controls="site-menu"
+          aria-expanded="false"
+        >
+          <span class="page-header__toggle-line"></span>
+          <span class="page-header__toggle-line"></span>
+          <span class="page-header__toggle-line"></span>
+        </button>
+
+        <nav class="page-header__nav nav" id="site-menu" aria-label="Navegación principal">
+          <a class="nav__link" href="#about">NOSOTROS</a>
+          <a class="nav__link" href="#catalog">PRODUCTOS</a>
+          <a class="nav__link" href="#contacts">CONTACTO</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page__main">
+      <section class="hero" id="top">
+        <div class="hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">POP IT!</h1>
+            <p class="hero__text">
+              ¡El juguete antiestrés para disfrutar sin parar!
+            </p>
+            <a class="button button--hero" href="#catalog">COMPRAR</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__container">
+          <h2 class="about__title">¿Qué es un Pop It?</h2>
+          <p class="about__text">
+            Un Pop It es un juguete de silicona con burbujas que puedes
+            presionar una y otra vez. Cada burbuja produce un pequeño sonido,
+            como al apretar plástico de burbujas. Cuando termines un lado,
+            dale la vuelta y vuelve a empezar. Una forma sencilla y colorida
+            de relajarte, entretenerte y compartir momentos de juego.
+          </p>
+        </div>
+      </section>
+
+      <section class="catalog" id="catalog">
+        <div class="catalog__container">
+          <h2 class="catalog__title">¡Elige tu Pop It favorito!</h2>
+
+          <div class="catalog__grid">
+            <article class="product-card">
+              <img
+                class="product-card__image"
+                src="images/square.png"
+                alt="Pop It cuadrado con burbujas de colores"
+              />
+              <h3 class="product-card__title">Cuadrado multicolor</h3>
+              <button class="button product-card__button" type="button">
+                COMPRAR
+              </button>
+            </article>
+
+            <article class="product-card">
+              <img
+                class="product-card__image"
+                src="images/amongus.png"
+                alt="Pop It con forma de astronauta y acabado marmoleado"
+              />
+              <h3 class="product-card__title">Astronauta marmoleado</h3>
+              <button class="button product-card__button" type="button">
+                COMPRAR
+              </button>
+            </article>
+
+            <article class="product-card">
+              <img
+                class="product-card__image"
+                src="images/round.png"
+                alt="Pop It redondo con burbujas de colores"
+              />
+              <h3 class="product-card__title">Redondo multicolor</h3>
+              <button class="button product-card__button" type="button">
+                COMPRAR
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="rules">
+        <div class="rules__container">
+          <div class="rules__content">
+            <h2 class="rules__title">Reglas del juego</h2>
+            <p class="rules__text">
+              Jueguen por turnos. En cada turno, presiona de una a tres
+              burbujas consecutivas de la misma fila. Completen la fila
+              que empezaron antes de pasar a otra. Piensa bien tu jugada:
+              el objetivo es conseguir que tu rival presione la última
+              burbuja. ¡Quien la presione pierde! Dale la vuelta al Pop It
+              para comenzar otra partida.
+            </p>
+          </div>
+
+          <img
+            class="rules__image"
+            src="images/photo.jpg"
+            alt="Una mano presiona las burbujas de un Pop It multicolor"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="footer__container">
+        <a class="footer__logo" href="#top">MUNDO POP IT By Steven Avelino</a>
+        <a class="footer__link" href="#top">Métodos de pago</a>
+        <a class="footer__link" href="#top">Envíos</a>
+        <a class="footer__link" href="#top">Venta al por mayor</a>
+        <a class="footer__link" href="#top">Contacto</a>
+      </div>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
